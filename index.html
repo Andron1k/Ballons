@@ -22,55 +22,34 @@
 	h1 {
 		margin: 0;
 	}
+
 	section {
 		width: 100%;
 		height: 85vh;
 		background-image: url(bg.jpg);
-		background-size: cover;
+		background-size: 100% 100%;
 	}
+
 	#dog {
 		position: absolute;
 		width: 300px;
-		bottom: 50px;
-		left: 700px;
+		bottom: 5%;
+		left: 40%;
 	}
 
 	img {
 		width: 100px;
 	}
+
 </style>
 
 <header>
 	<h1>Погладь Джека щоб дізнатись які кульки йому не подобаються</h1>
-	<h6>Натисни курсором на кульку щоб її лопнути</h6>
+	<h6>Натисни на кульку щоб її лопнути</h6>
 </header>
 
 
 <section>
-	<img src="red.gif" onclick="yes(this)">
-	<img src="yellow.gif" onclick="no(this)">
-	<img src="pink.gif" onclick="yes(this)">
-	<img src="red.gif" onclick="yes(this)">
-	<img src="yellow.gif" onclick="no(this)">
-	<img src="pink.gif" onclick="yes(this)">
-	<img src="red.gif" onclick="yes(this)">
-	<img src="yellow.gif" onclick="no(this)">
-	<img src="pink.gif" onclick="yes(this)">
-	<img src="red.gif" onclick="yes(this)">
-	<img src="yellow.gif" onclick="no(this)">
-	<img src="pink.gif" onclick="yes(this)">
-	<img src="red.gif" onclick="yes(this)">
-	<img src="yellow.gif" onclick="no(this)">
-	<img src="pink.gif" onclick="yes(this)">
-	<img src="red.gif" onclick="yes(this)">
-	<img src="yellow.gif" onclick="no(this)">
-	<img src="pink.gif" onclick="yes(this)">
-	<img src="red.gif" onclick="yes(this)">
-	<img src="yellow.gif" onclick="no(this)">
-	<img src="pink.gif" onclick="yes(this)">
-	<img src="red.gif" onclick="yes(this)">
-	<img src="yellow.gif" onclick="no(this)">
-	<img src="pink.gif" onclick="yes(this)">
 	<img src="red.gif" onclick="yes(this)">
 	<img src="yellow.gif" onclick="no(this)">
 	<img src="pink.gif" onclick="yes(this)">
@@ -88,9 +67,7 @@
 	<img src="dog.gif" id="dog" title="Собаки мають дихроматичний зір, а це означає, що вони бачать тільки синій та жовтий кольори. Водночас люди сприймають світ у синьому, жовтому та червоному кольорах. Собаки ж замість червоного бачать темно-коричневий колір. Зелений вони сприймають як бежевий, а фіолетовий — як синій колір">
 </section>
 
-<footer>
-	<p>Зробив Андрій</p>
-</footer>
+<footer><p>Зробив Андрій</p></footer>
 
 <script>
 	function yes(ballon) {
@@ -100,5 +77,6 @@
 		alert("Мені подобається ця кулька!!");
 	}
 </script>
+
 </body>
 </html>
